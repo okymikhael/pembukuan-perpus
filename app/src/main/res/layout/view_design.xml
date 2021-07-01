@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    android:id="@+id/list_item">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_weight="2.5"
+        android:src="@drawable/milos_1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginStart="6dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/namaBuku"
+            android:layout_marginTop="4dp"
+            android:text="Nama Buku"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/namaPenulis"
+            android:layout_marginTop="4dp"
+            android:text="Nama Penulis"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/penerbit"
+            android:layout_marginTop="4dp"
+            android:text="Penerbit"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tahunTerbit"
+            android:layout_marginTop="4dp"
+            android:text="Tahun Terbit"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</LinearLayout>
